@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "stylelint src/**/*.scss",
     "lint:fix": "yarn lint --fix",
-    "build": "node src/scripts/build.js"
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
   "dependencies": {
     "lint-staged": "^15.2.0",
     "node-sass": "^9.0.0",
+    "nodemon": "^3.0.2",
     "normalize-scss": "^8.0.0",
     "prettier": "^2.0.5",
     "sass": "^1.69.5",
