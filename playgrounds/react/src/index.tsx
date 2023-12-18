@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import {Color,Spacing} from '@ds.e/react'
-import '@ds.e/scss/lib/Utilities.css'
+import {Color} from '@mono-mrinal/react'
+import '@mono-mrinal/scss/lib/Utilities.css'
 
 
 ReactDOM.render(
