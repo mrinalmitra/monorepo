@@ -4,17 +4,18 @@
   "description": "To demonstrate implementation of monorepos",
   "main": "index.js",
   "scripts": {
-    "build":"yarn lerna run build",
+    "build": "yarn lerna run build",
     "dev": "yarn lerna run dev",
-    "publish": "yarn build && yarn lerna publish"
+    "publish": "yarn build && yarn lerna publish",
+    "commit":"yarn git-cz"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "lerna": "^8.0.1"
   },
-  "private":true,
-  "workspaces":{
+  "private": true,
+  "workspaces": {
     "packages": [
       "packages/*",
       "playgrounds/*"
@@ -22,5 +23,14 @@
     "nohoist": [
       "**/normalize-scss"
     ]
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen":{
+      "path":"cz-conventional-changelog"
+    }
   }
 }
