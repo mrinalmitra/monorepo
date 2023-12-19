@@ -1,14 +1,14 @@
 {
   "name": "@mono-mrinal/foundation",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "build":"tsc",
-    "dev":"yarn build -w"
+    "build": "tsc",
+    "dev": "yarn build -w"
   },
   "publishConfig": {
     "access": "public"

@@ -1,8 +1,8 @@
 {
   "name": "@mono-mrinal/react",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
-  "type":"module",
+  "type": "module",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.2.45",
@@ -12,7 +12,7 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "build":"rollup -c",
+    "build": "rollup -c",
     "dev": "yarn build --watch"
   },
   "publishConfig": {
