@@ -1,10 +1,12 @@
 {
   "name": "@mono-mrinal/react",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "type": "module",
   "license": "MIT",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@types/react": "^18.2.45",
     "react": "^18.2.0",
